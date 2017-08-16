@@ -5,8 +5,10 @@ CPUMiner-Multi
 How to compile on FreeBSD
 ==========================
 
-autogen.sh 
+./autogen.sh 
+
 ./configure CFLAGS="-march=native" CC=gcc5 or (env ./configure CFLAGS="-march=native" CC=gcc5)
+
 make 
 
 enjoy!
