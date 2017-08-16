@@ -1,5 +1,16 @@
 CPUMiner-Multi
-==============
+=============
+
+
+How to compile on FreeBSD
+==========================
+
+autogen.sh 
+./configure CFLAGS="-march=native" CC=gcc5 or (env ./configure CFLAGS="-march=native" CC=gcc5)
+make 
+
+enjoy!
+
 
 [![Build Status](https://travis-ci.org/lucasjones/cpuminer-multi.svg?branch=master)](https://travis-ci.org/lucasjones/cpuminer-multi)
 
